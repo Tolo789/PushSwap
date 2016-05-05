@@ -27,7 +27,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	@$(CC) -o $(NAME) $(OBJ)
-	@echo "				push_swap crated"
+	@echo "				push_swap created"
 
 clean:
 	@/bin/rm -f $(OBJ)
