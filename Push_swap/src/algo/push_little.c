@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_little.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cmutti <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: cmutti <cmutti@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/04/16 16:12:45 by cmutti            #+#    #+#             */
-/*   Updated: 2016/04/16 16:12:47 by cmutti           ###   ########.fr       */
+/*   Updated: 2016/08/20 05:16:05 by cmutti           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 void	tffront(t_env *env, int pos)
 {
-	t_elem	*tmp;
-
-	tmp = env->a_start;
 	while (pos--)
 		move_ra(env);
 	move_pb(env);
@@ -24,10 +21,7 @@ void	tffront(t_env *env, int pos)
 
 void	tfback(t_env *env, int pos)
 {
-	t_elem	*tmp;
-
-	pos = env->asize - pos - 1;
-	tmp = env->a_start;
+	pos = env->asize - pos;
 	while (pos--)
 		move_revra(env);
 	move_pb(env);
