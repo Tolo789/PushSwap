@@ -19,7 +19,7 @@ Only the following movements are allowed:
 - rrb: reverse rotate B, takes the element;at the bottom of B and puts it onto the top;
 - rrr: rra and rrb at the same time.
 
-
+### Options
 The program will print out the moves needed to sort the given numbers.
 However it is possible to enable some options (seprated by a space) by putting the following flags before giving the nubers:
 - -p: prints the piles state at before starting and at the end of the sorting algorithm;
