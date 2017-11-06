@@ -1,10 +1,11 @@
 # PushSwap
 42 project: Push_swap
 
-Objecive: This program sorts, from lower to bigger, the integers given as parameters.
+### Objecive
+This program sorts, from lower to bigger, the integers given as parameters.
 The parameters given are saved as a pile (called pile A), where the first parameter given is on the top of it and the last one is on the bottom, and it is possible to use a second pile (called pile B) to help the sorting.
 
-
+### Project's constraints
 Only the following movements are allowed:
 - sa: swap A, swaps the top two elements of the pile A;
 - sb: swap B, swaps the top two elements of the pile B;
@@ -35,7 +36,7 @@ Between the above options and the numbers to sort, it is possible to choose wich
 - -a4: an adaptation of the quicksort: the pivot is the median and the 1/2 (1/7 if there are more than 400 elements on pile A) lowest numbers are pushed to B and sorted. Then they are all repushed to A.
 
 
-NOTES:
+### Notes
 - numbers lower than or bigger than an integer will not be accepted;
 - the program does not accept the same number to be given more than once;
 - -p, -d -rp and -t can be written as many times as you like (as long as they are put at the right position) but they behaviour will only be executed once. Moreover only -p and -rp options are not compatible and the -rp will not be considered, all others combinations will not cause problems;
