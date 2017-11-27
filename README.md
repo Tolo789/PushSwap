@@ -1,7 +1,7 @@
 # PushSwap
 42 project: Push_swap
 
-### Objecive
+### Objective
 This program sorts, from lower to bigger, the integers given as parameters.
 The parameters given are saved as a pile (called pile A), where the first parameter given is on the top of it and the last one is on the bottom, and it is possible to use a second pile (called pile B) to help the sorting.
 
